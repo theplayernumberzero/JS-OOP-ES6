@@ -9,9 +9,9 @@ class Person{   //Superclass, Baseclass
 }
 
 class Employee extends Person{      //Subclass, derivedClass, Childclass
-    constructor(name,age){
+    constructor(name,age,salary){
         super(name,age);    //this.name ve this.age i yeniden yazmana gerek kalmıyor.
-        this.salary = this.salary;
+        this.salary = salary;
     }
 
     showInfos(){    //Override
